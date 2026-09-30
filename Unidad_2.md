@@ -52,21 +52,30 @@
     ***Cómo funciona:***  
     El algoritmo divide los datos mediante preguntas o condiciones. Cada división genera diferentes ramas y el proceso continúa hasta llegar a una hoja, donde se obtiene la clasificación o predicción final (Scikit-learn Developers, 2026). 
 
+    ***Caso de uso:***
+    Aprobación o rechazo de créditos bancarios según ingresos, deudas e historial crediticio.
+
 - ## Regresión logística
 
-    ***Definición:****  
+    ***Definición:***  
     La regresión logística es un método utilizado principalmente para problemas de clasificación. Permite estimar la probabilidad de que un dato pertenezca a una determinada categoría (Scikit-learn Developers, 2026). 
 
     ***Cómo funciona:***  
     El modelo analiza las variables de entrada y obtiene una probabilidad para cada posible categoría. Posteriormente, utiliza esas probabilidades para determinar a qué clase pertenece el dato (Scikit-learn Developers, 2026). 
 
+    ***Caso de uso:***
+    Detección de correos spam mediante la probabilidad de que un mensaje sea no deseado.
+
 - ## K vecinos más cercanos (K-NN)
 
     ***Definición:***  
-    K-NN es un método basado en vecinos cercanos que puede utilizarse para tareas supervisadas de clasificación y regresión. La predicción depende de los datos de entrenamiento que se encuentran más próximos al nuevo ejemplo (Scikit-learn Developers, 2026). 
+    K-NN es un método basado en vecinos cercanos que puede utilizarse para tareas supervisadas de clasificación y regresión. La predicción depende de los datos de entrenamiento que se encuentran más próximos al nuevo ejemplo (Scikit-learn Developers, 2026). 1
 
     ***Cómo funciona:***  
     Primero se selecciona un valor **K**, que representa el número de vecinos que serán considerados. Después se calcula qué datos se encuentran más cerca del nuevo elemento y se utilizan sus resultados para realizar la clasificación o predicción (Scikit-learn Developers, 2026). 
+
+    ***Caso de uso:***
+    Clasificación de una flor según las características de las flores más parecidas.
 
 - ## Naive Bayes
 
@@ -76,6 +85,9 @@
     ***Cómo funciona:***  
     Calcula la probabilidad de que un ejemplo pertenezca a cada una de las categorías disponibles. Después compara esas probabilidades y selecciona la categoría con el valor más alto como resultado de la clasificación (Scikit-learn Developers, 2026).
 
+    ***Caso de uso:***
+    Clasificación de comentarios de clientes como positivos, negativos o neutrales.
+
 - ## Máquina de Vectores de Soporte (SVM)
 
     ***Definición:***  
@@ -83,6 +95,9 @@
 
     ***Cómo funciona:***  
     SVM busca crear un hiperplano que separe las distintas categorías. Intenta encontrar una frontera que tenga la mayor distancia posible respecto a los ejemplos más cercanos de cada clase. Esos ejemplos se conocen como **vectores de soporte** (Scikit-learn Developers, 2026).
+
+    ***Caso de uso:***
+    Clasificación de imágenes para distinguir, por ejemplo, entre perros y gatos.
 
 - ## Bosque aleatorio
 
@@ -92,6 +107,9 @@
     ***Cómo funciona:***  
     El algoritmo construye varios árboles introduciendo aleatoriedad durante su entrenamiento. Cada árbol realiza una predicción y posteriormente los resultados de todos los árboles se combinan para obtener la respuesta final (Scikit-learn Developers, 2026).
 
+    ***Caso de uso:***
+    Detección de transacciones bancarias posiblemente fraudulentas.
+
 - ## Red neuronal
 
     ***Definición:***  
@@ -99,6 +117,9 @@
 
     ***Cómo funciona:***  
     Los datos entran por una capa de entrada y pasan por una o más capas ocultas antes de llegar a la capa de salida. Durante el entrenamiento, el modelo aprende una función ajustando sus parámetros para relacionar las características de entrada con el resultado esperado (Scikit-learn Developers, 2026). 
+
+    ***Caso de uso:***
+    Reconocimiento facial para identificar o verificar a una persona mediante una imagen.
 
 - ## Referencias APA 7
 
