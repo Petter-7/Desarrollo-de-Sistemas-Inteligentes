@@ -186,3 +186,24 @@ El algoritmo parte del **cuadro verde** y explora primero las casillas con menor
 |Operaciones contabilizadas|483|
 
 En la imagen anterior, **Dijkstra bidireccional realizó 175 operaciones**; aquí fueron **483**. Al buscar solamente desde el inicio, explora una región más grande antes de alcanzar la meta. Ambos encontraron un camino de **10 unidades**.
+
+## ACTIVIDAD 3.2
+
+
+**1. ¿Qué longitud tiene cada algoritmo?**  
+Ambos encontraron un camino de **22 movimientos** desde el punto inicial hasta la meta, evitando los obstáculos.
+
+**2. ¿Cuánto tiempo se tardó cada algoritmo?**  
+Según las últimas capturas:
+
+|Algoritmo|Longitud|Tiempo|Operaciones|
+|---|---|---|---|
+|A* con heurística Manhattan|22 movimientos|0.3000 ms|277|
+|Dijkstra (búsqueda ciega)|22 movimientos|1.7000 ms|1145|
+
+**3. ¿Qué diferencia observas?**  
+A* exploró menos casillas porque utiliza una estimación de la distancia a la meta para orientar su búsqueda. Dijkstra revisó una zona más amplia porque considera el costo acumulado sin estimar la distancia restante.
+
+Aunque ambos encontraron caminos de la misma longitud, __A_ fue más rápido y realizó menos operaciones en esta prueba_*. Dijkstra tardó 1.4 ms más y realizó 868 operaciones adicionales.
+
+![[Pasted image 20261014161332.png|289]]  ![[Pasted image 20261014161349.png|291]]
