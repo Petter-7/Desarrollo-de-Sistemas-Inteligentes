@@ -291,4 +291,4 @@ Si, pero con mas intentos este mejora pero el rendimiento decrece
 
 ## ACTIVIDAD 3.5
 
-![[Pasted image 20261021162532.png]]
+![[Pasted image 20261021163526.png]]
