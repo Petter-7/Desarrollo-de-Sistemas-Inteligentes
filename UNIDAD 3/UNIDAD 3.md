@@ -292,3 +292,13 @@ Si, pero con mas intentos este mejora pero el rendimiento decrece
 ## ACTIVIDAD 3.5
 
 ![[Pasted image 20261021163526.png]]
+
+## ACTIVIDAD  3.6
+
+### MOTIVOS DE INFERENCIA
+
+| Aspecto     | Mamdani                                                                                                                                           | Takagi-Sugeno                                                                                                                                        |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Ventajas    | Fácil de comprender e interpretar. Utiliza reglas lingüísticas similares al razonamiento humano. Es adecuado para sistemas de toma de decisiones. | Mayor eficiencia computacional. Ofrece resultados numéricos directos. Es adecuado para sistemas de control y modelado matemático.                    |
+| Desventajas | Requiere un proceso de desfusificación. Puede necesitar mayor capacidad de cálculo cuando existen muchas reglas.                                  | Sus reglas son más difíciles de interpretar. Requiere funciones matemáticas para calcular las salidas.                                               |
+| Diferencias | Utiliza conjuntos difusos tanto en las entradas como en las salidas. Necesita desfusificación para obtener un resultado numérico.                 | Utiliza conjuntos difusos en las entradas y funciones matemáticas o constantes en las salidas. Generalmente no requiere desfusificación tradicional. |
